@@ -421,8 +421,8 @@ with st.sidebar:
 
 
 # show plot
-st.plotly_chart(fig)
-st.plotly_chart(fig1)
+st.plotly_chart(fig,use_container_width=True, theme="streamlit")
+st.plotly_chart(fig1,use_container_width=True, theme="streamlit")
 
 # cache executionf flow:
 # 1. User selects product and step -> df_filtered is created
