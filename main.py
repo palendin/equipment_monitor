@@ -2,10 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import streamlit as st
-import dash
-import plotly.express as px
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 from scipy import stats
 import numpy as np
 from sklearn.linear_model import LinearRegression
